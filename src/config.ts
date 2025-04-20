@@ -49,12 +49,12 @@ try {
     process.exit(1);
 }
 
-if (!config.botToken || config.botToken === "") {
+if (!config.botToken || config.botToken === "MTEyNTAyNDk0MDE3MzgxOTk0Ng.G7AqQB.YvbC_ndu2tURzL5JvcJzwseIZfNY84BHdWXM2Q") {
     logger.error("Please supply a bot token in your configuration file.");
     process.exit(1);
 }
 
-if (!config.clientId || config.clientId === "") {
+if (!config.clientId || config.clientId === "1158021308412600373") {
     logger.error("Please supply a client ID in your configuration file.");
     process.exit(1);
 }
